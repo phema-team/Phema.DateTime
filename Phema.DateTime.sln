@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phema.DateTime", "src\Phema
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phema.DateTime.Utc", "src\Phema.DateTime.Utc\Phema.DateTime.Utc.csproj", "{ED068482-AD3A-4CC6-B4BA-E426CE73E1FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phema.DateTime.Local", "src\Phema.DateTime.Local\Phema.DateTime.Local.csproj", "{E7303B99-F41A-4901-8376-C03465A9F98F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -46,9 +48,22 @@ Global
 		{ED068482-AD3A-4CC6-B4BA-E426CE73E1FB}.Release|x64.Build.0 = Release|Any CPU
 		{ED068482-AD3A-4CC6-B4BA-E426CE73E1FB}.Release|x86.ActiveCfg = Release|Any CPU
 		{ED068482-AD3A-4CC6-B4BA-E426CE73E1FB}.Release|x86.Build.0 = Release|Any CPU
+		{E7303B99-F41A-4901-8376-C03465A9F98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7303B99-F41A-4901-8376-C03465A9F98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7303B99-F41A-4901-8376-C03465A9F98F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{E7303B99-F41A-4901-8376-C03465A9F98F}.Debug|x64.Build.0 = Debug|Any CPU
+		{E7303B99-F41A-4901-8376-C03465A9F98F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E7303B99-F41A-4901-8376-C03465A9F98F}.Debug|x86.Build.0 = Debug|Any CPU
+		{E7303B99-F41A-4901-8376-C03465A9F98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7303B99-F41A-4901-8376-C03465A9F98F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7303B99-F41A-4901-8376-C03465A9F98F}.Release|x64.ActiveCfg = Release|Any CPU
+		{E7303B99-F41A-4901-8376-C03465A9F98F}.Release|x64.Build.0 = Release|Any CPU
+		{E7303B99-F41A-4901-8376-C03465A9F98F}.Release|x86.ActiveCfg = Release|Any CPU
+		{E7303B99-F41A-4901-8376-C03465A9F98F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{47D061B8-FBDC-48F8-A320-EEBAAC408C24} = {DC866C4D-AF6D-4B5A-B5B0-950D27F65519}
 		{ED068482-AD3A-4CC6-B4BA-E426CE73E1FB} = {DC866C4D-AF6D-4B5A-B5B0-950D27F65519}
+		{E7303B99-F41A-4901-8376-C03465A9F98F} = {DC866C4D-AF6D-4B5A-B5B0-950D27F65519}
 	EndGlobalSection
 EndGlobal
