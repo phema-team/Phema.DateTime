@@ -1,9 +1,9 @@
-namespace Phema.DateTime
+namespace Phema.DateTime.Internal
 {
-    using System;
-    
-    internal class UtcDateTime : IDateTime
-    {
-        public DateTime Now => DateTime.UtcNow;
-    }
+	using System;
+
+	internal class UtcDateTime : IDateTime
+	{
+		public DateTime Now => DateTime.UtcNow;
+	}
 }

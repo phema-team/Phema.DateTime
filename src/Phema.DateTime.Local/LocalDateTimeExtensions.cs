@@ -1,12 +1,13 @@
 using Microsoft.Extensions.DependencyInjection;
+using Phema.DateTime.Internal;
 
 namespace Phema.DateTime
 {
 	public static class LocalDateTimeExtensions
 	{
-		public static IServiceCollection AddPhemaLocalDateTime(this IServiceCollection services)
+		public static IServiceCollection AddLocalDateTime(this IServiceCollection services)
 		{
-			return services.AddPhemaDateTime<LocalDateTime>();
+			return services.AddDateTime<LocalDateTime>();
 		}
 	}
 }

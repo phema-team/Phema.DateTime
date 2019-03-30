@@ -1,14 +1,22 @@
 # Phema.DateTime
-C# DateTime DI services
+
+[![Nuget](https://img.shields.io/nuget/v/Phema.DateTime.svg)](https://www.nuget.org/packages/Phema.DateTime)
+
+C# DateTime wrapper for `Microsoft.Extensions.DependencyInjection`
+
+## Packages
+
+- `Phema.DateTime` - Core abstractions
+- `Phema.DateTime.Utc` - `.AddUtcDateTime()`
+- `Phema.DateTime.Local` - `.AddLocalDateTime()`
+
+## Usage
 
 ```csharp
-// Utc
-services.AddPhemaUtcDateTime();
+// Add
+services.AddUtcDateTime(); // .AddLocalDateTime();
 
-// Local
-services.AddPhemaLocalDateTime();
-
-// Resolve
+// Get
 var dateTime = provider.GetRequiredService<IDateTime>();
 
 // Use
