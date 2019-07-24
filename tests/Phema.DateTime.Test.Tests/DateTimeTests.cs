@@ -1,20 +1,21 @@
-using System;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 
-namespace Phema.DateTime.Local.Tests
+namespace Phema.DateTime.Test.Tests
 {
+	using System;
+
 	public class DateTimeTests
 	{
 		[Fact]
-		public void LocalDateTime()
+		public void TestDateTime()
 		{
 			var dateTime = new ServiceCollection()
-				.AddLocalDateTime()
+				.AddTestDateTime(new DateTime(2012, 12, 12))
 				.BuildServiceProvider()
 				.GetRequiredService<IDateTime>();
 
-			Assert.True(Math.Abs(System.DateTime.Now.Ticks - dateTime.Now.Ticks) < 1000);
+			Assert.Equal(new DateTime(2012, 12, 12), dateTime.Now);
 		}
 	}
 }

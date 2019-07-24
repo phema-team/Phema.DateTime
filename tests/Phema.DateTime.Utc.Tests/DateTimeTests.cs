@@ -7,7 +7,7 @@ namespace Phema.DateTime.Utc.Tests
 	public class DateTimeTests
 	{
 		[Fact]
-		public void UtcTime()
+		public void UtcDateTime()
 		{
 			var dateTime = new ServiceCollection()
 				.AddUtcDateTime()
