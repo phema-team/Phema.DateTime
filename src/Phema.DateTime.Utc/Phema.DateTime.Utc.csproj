@@ -4,7 +4,7 @@
 		<TargetFramework>netstandard2.0</TargetFramework>
 		<RootNamespace>Phema.DateTime</RootNamespace>
 		<LangVersion>8</LangVersion>
-		<Version>3.0.0-preview3.0.0</Version>
+		<Version>3.0.0</Version>
 		<Authors>sergeyshaykhullin</Authors>
 		<Description>C# DateTime wrapper for Microsoft.Extensions.DependencyInjection</Description>
 		<PackageTags>.NET Core;ASP.NET Core;DateTime</PackageTags>
