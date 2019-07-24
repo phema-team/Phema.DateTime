@@ -13,11 +13,21 @@ C# DateTime wrapper for `Microsoft.Extensions.DependencyInjection` with built-on
 
 ```csharp
 // Add
-services.AddUtcDateTime(); // .AddLocalDateTime(); or .AddTestDateTime(...)
+services.AddUtcDateTime(); // .AddLocalDateTime();
 
-// Get
+// Get or inject
 var dateTime = provider.GetRequiredService<IDateTime>();
 
 // Use
 var now = dateTime.Now;
+```
+
+## Testing
+
+```csharp
+services.AddTestDateTime(new DateTime(2012, 12, 12));
+
+var dateTimeProcessed = someServiceUnderTest.ProcessSomeEntry(); // IDateTime.Now used
+
+Assert.Equal(new DateTime(2012, 12, 12), dateTimeProcessed);
 ```
