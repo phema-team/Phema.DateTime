@@ -1,15 +1,13 @@
 # Phema.DateTime
 
-[![Nuget](https://img.shields.io/nuget/v/Phema.DateTime.svg)](https://www.nuget.org/packages/Phema.DateTime)
-
-C# DateTime wrapper for `Microsoft.Extensions.DependencyInjection`
+C# DateTime wrapper for `Microsoft.Extensions.DependencyInjection` with built-on testing support
 
 ## Packages
 
-- `Phema.DateTime` - Core abstractions
-- `Phema.DateTime.Utc` - `.AddUtcDateTime()`
-- `Phema.DateTime.Local` - `.AddLocalDateTime()`
-- `Phema.DateTime.Test` - `.AddTestDateTime(...)`
+- [![Nuget](https://img.shields.io/nuget/v/Phema.DateTime.svg)](https://www.nuget.org/packages/Phema.DateTime) `Phema.DateTime` - Core abstractions
+- [![Nuget](https://img.shields.io/nuget/v/Phema.DateTime.Utc.svg)](https://www.nuget.org/packages/Phema.DateTime.Utc) `Phema.DateTime.Utc` - `.AddUtcDateTime()`
+- [![Nuget](https://img.shields.io/nuget/v/Phema.DateTime.Local.svg)](https://www.nuget.org/packages/Phema.DateTime.Local)  `Phema.DateTime.Local` - `.AddLocalDateTime()`
+- [![Nuget](https://img.shields.io/nuget/v/Phema.DateTime.Test.svg)](https://www.nuget.org/packages/Phema.DateTime.Test)  `Phema.DateTime.Test` - `.AddTestDateTime(...)`
 
 ## Usage
 
