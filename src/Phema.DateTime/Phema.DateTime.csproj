@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>netcoreapp3.0</TargetFramework>
+		<TargetFramework>netstandard2.0</TargetFramework>
 		<RootNamespace>Phema.DateTime</RootNamespace>
 		<LangVersion>8</LangVersion>
 		<Version>3.0.0-preview3.0.0</Version>
@@ -14,7 +14,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0"/>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.2.0" />
 	</ItemGroup>
 
 </Project>
