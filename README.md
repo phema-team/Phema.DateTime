@@ -9,12 +9,13 @@ C# DateTime wrapper for `Microsoft.Extensions.DependencyInjection`
 - `Phema.DateTime` - Core abstractions
 - `Phema.DateTime.Utc` - `.AddUtcDateTime()`
 - `Phema.DateTime.Local` - `.AddLocalDateTime()`
+- `Phema.DateTime.Test` - `.AddTestDateTime(...)`
 
 ## Usage
 
 ```csharp
 // Add
-services.AddUtcDateTime(); // .AddLocalDateTime();
+services.AddUtcDateTime(); // .AddLocalDateTime(); or .AddTestDateTime(...)
 
 // Get
 var dateTime = provider.GetRequiredService<IDateTime>();
